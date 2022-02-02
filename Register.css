@@ -1,0 +1,97 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+body {
+    margin: 0;
+    font-family: "Helvetica Neue";
+    line-height: 1.6;
+    /*background: url("https://i.pinimg.com/564x/89/82/ca/8982ca163d4eeea6cfd84b9f26863705.jpg") no-repeat;
+    background-size: cover;*/
+    background-color: #f0f0f0;
+    overflow: scroll;
+}
+
+
+body img {
+    float: left;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.headerText {
+    color: steelblue;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.lcolumn {
+    font-size: 17px;
+    width: 400px;
+    height: 55px;
+    position: absolute;
+	left: 20%;
+    transform: translateY(-50%);
+    color: black;
+    border: transparent;
+    padding: 15px;
+    background-color: rgba(255,255,255,0.25);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rcolumn {
+    font-size: 17px;
+    width: 400px;
+    height: 55px;
+    position: absolute;
+	left: 50.25%;
+    transform: translateY(-50%);
+    color: black;
+    border: transparent;
+    padding: 15px;
+    background-color: rgba(255,255,255,0.25);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ccolumn {
+    font-size: 17px;
+    width: 400px;
+    height: 55px;
+    position: absolute;
+	left: 35%;
+    transform: translateY(-50%);
+    color: black;
+    border: transparent;
+    padding: 15px;
+    background-color: rgba(255,255,255,0.25);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.submitB {
+    width: 125px;
+    height: 55px;
+    position: absolute;
+    top: 145%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    border: transparent;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: darkred;
+    font-size: 20px;
+}
+
+.admin{
+    float: right;
+    color: darkred;
+    font-size: 40px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
